@@ -1,1 +1,2 @@
-web: java -jar $JAVA_OPTS -Dserver.port=$PORT target/ResumeApplication.jar
+web: java -jar build/server/webapp-runner-*.jar build/libs/*.war
+
